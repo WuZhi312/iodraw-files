@@ -37,6 +37,9 @@
             <mxPoint x="480" y="542" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ufX_WCOpxSqMMds3fUVJ-10" value="数据库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="310" width="225" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
