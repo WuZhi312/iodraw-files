@@ -29,7 +29,7 @@
           <mxGeometry x="595" y="45" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rjM0L2FsA3TL7Is188Zh-16" value="数据访问层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="320" width="110" height="110" as="geometry" />
+          <mxGeometry x="605" y="358" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="rjM0L2FsA3TL7Is188Zh-18" value="mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="100" width="110" height="600" as="geometry" />
@@ -42,6 +42,9 @@
         </mxCell>
         <mxCell id="rjM0L2FsA3TL7Is188Zh-23" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 30px; text-wrap: nowrap;&quot;&gt;数据库&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="975" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rjM0L2FsA3TL7Is188Zh-29" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="310" width="275" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
