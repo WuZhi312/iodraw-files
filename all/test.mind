@@ -1,0 +1,50 @@
+{
+    "type": "mindmap",
+    "root": {
+        "text": "水果",
+        "children": [
+            {
+                "text": "浆果类",
+                "children": [
+                    {
+                        "text": "草莓"
+                    },
+                    {
+                        "text": "蓝莓"
+                    },
+                    {
+                        "text": "葡萄"
+                    }
+                ]
+            },
+            {
+                "text": "核果类",
+                "children": [
+                    {
+                        "text": "桃子"
+                    },
+                    {
+                        "text": "李子"
+                    },
+                    {
+                        "text": "杏子"
+                    }
+                ]
+            },
+            {
+                "text": "柑橘类",
+                "children": [
+                    {
+                        "text": "橙子"
+                    },
+                    {
+                        "text": "橘子"
+                    },
+                    {
+                        "text": "柚子"
+                    }
+                ]
+            }
+        ]
+    }
+}
