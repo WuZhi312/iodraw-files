@@ -16,7 +16,7 @@
         <mxCell id="ZdvKLY-3le9Xn6DhhyFW-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZdvKLY-3le9Xn6DhhyFW-5" target="ZdvKLY-3le9Xn6DhhyFW-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZdvKLY-3le9Xn6DhhyFW-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;路由器&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZdvKLY-3le9Xn6DhhyFW-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;路由器/防火墙&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="410" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZdvKLY-3le9Xn6DhhyFW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZdvKLY-3le9Xn6DhhyFW-7" target="ZdvKLY-3le9Xn6DhhyFW-9">
