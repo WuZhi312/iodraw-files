@@ -40,7 +40,7 @@
         <mxCell id="GWpRzyTNuYtD7YGPLSDZ-10" value="symptom(10)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GWpRzyTNuYtD7YGPLSDZ-12" value="symptom" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GWpRzyTNuYtD7YGPLSDZ-12" value="harm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
