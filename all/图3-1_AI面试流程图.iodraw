@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="AI面试流程图" id="ai-interview-flow">
+    <root>
+      <!-- 第1行：用户开始 -->
+      <mxCell id="1" value="开始面试&#xa;用户点击AI面试" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" x="50" y="50">
+        <mxGeometry x="50" y="50" width="120" height="60" as="geometry"/>
+      </mxCell>
+
+      <!-- 第2行：创建面试记录 -->
+      <mxCell id="2" value="创建面试记录&#xa;bis_interview表&#xa;status=1(进行中)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" x="220" y="50">
+        <mxGeometry x="220" y="50" width="140" height="60" as="geometry"/>
+      </mxCell>
+
+      <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="1" target="2">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- 第3行：WebSocket连接 + 虚拟人 -->
+      <mxCell id="3" value="WebSocket连接&#xa;+&#xa;讯飞虚拟人" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" x="400" y="50">
+        <mxGeometry x="400" y="50" width="120" height="60" as="geometry"/>
+      </mxCell>
+
+      <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="2" target="3">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- 第4行：AI开场 -->
+      <mxCell id="4" value="AI开场问候&#xa;&quot;你好！我是AI面试考官...&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" x="560" y="50">
+        <mxGeometry x="560" y="50" width="160" height="60" as="geometry"/>
+      </mxCell>
+
+      <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="3" target="4">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- 第5行：用户回答 -->
+      <mxCell id="5" value="用户回答问题&#xa;(语音/文本输入)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" x="50" y="150">
+        <mxGeometry x="50" y="150" width="140" height="60" as="geometry"/>
+      </mxCell>
+
+      <!-- 语音识别技术标注 -->
+      <mxCell id="5a" value="讯飞IAT语音识别&#xa;wss://iat-api.xfyun.cn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#666666;" vertex="1" x="60" y="215">
+        <mxGeometry x="60" y="215" width="120" height="30" as="geometry"/>
+      </mxCell>
+
+      <!-- 第6行：保存对话 -->
+      <mxCell id="6" value="保存对话记录&#xa;→ bis_interview_dialogue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" x="230" y="150">
+        <mxGeometry x="230" y="150" width="160" height="60" as="geometry"/>
+      </mxCell>
+
+      <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="5" target="6">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- 第7行：调用DeepSeek生成问题 -->
+      <mxCell id="7" value="调用DeepSeek API&#xa;生成下一道面试题&#xa;(流式输出)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" x="430" y="150">
+        <mxGeometry x="430" y="150" width="160" height="60" as="geometry"/>
+      </mxCell>
+
+      <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="6" target="7">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- 技术标注 -->
+      <mxCell id="7a" value="DeepSeek流式API&#xa;WebSocket推送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#666666;" vertex="1" x="450" y="215">
+        <mxGeometry x="450" y="215" width="120" height="30" as="geometry"/>
+      </mxCell>
+
+      <!-- 第8行：判断题数 -->
+      <mxCell id="8" value="判断题数&#xa;是否达到上限?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" x="630" y="140">
+        <mxGeometry x="630" y="140" width="100" height="80" as="geometry"/>
+      </mxCell>
+
+      <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="7" target="8">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- 是 - 结束 -->
+      <mxCell id="8a" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" x="670" y="225">
+        <mxGeometry x="670" y="225" width="30" height="20" as="geometry"/>
+      </mxCell>
+
+      <!-- 第9行：面试结束 -->
+      <mxCell id="9" value="面试结束&#xa;status=2(已完成)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" x="760" y="150">
+        <mxGeometry x="760" y="150" width="120" height="60" as="geometry"/>
+      </mxCell>
+
+      <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="8" target="9">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- 否 - 循环 -->
+      <mxCell id="8b" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" x="730" y="130">
+        <mxGeometry x="730" y="130" width="30" height="20" as="geometry"/>
+      </mxCell>
+
+      <!-- 循环箭头 -->
+      <mxCell id="loop" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;" edge="1" source="9" target="5">
+        <mxGeometry relative="1" as="geometry">
+          <Array as="points">
+            <mxPoint x="820" y="100"/>
+            <mxPoint x="60" y="100"/>
+          </Array>
+        </mxGeometry>
+      </mxCell>
+
+      <!-- 第10行：生成评估报告 -->
+      <mxCell id="10a" value="生成六维度评估报告&#xa;(异步@Async)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" x="760" y="250">
+        <mxGeometry x="760" y="250" width="140" height="60" as="geometry"/>
+      </mxCell>
+
+      <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="9" target="10a">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- 评估维度标注 -->
+      <mxCell id="10b" value="dimTech技术掌握 | dimLogic逻辑思维&#xa;dimExp项目经验 | dimComm沟通表达&#xa;dimBasic基础知识 | dimPotential学习潜力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontColor=#666666;" vertex="1" x="760" y="315">
+        <mxGeometry x="760" y="315" width="200" height="40" as="geometry"/>
+      </mxCell>
+
+      <!-- 第11行：存储评估结果 -->
+      <mxCell id="11a" value="存储评估结果&#xa;→ bis_interview_analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" x="760" y="370">
+        <mxGeometry x="760" y="370" width="160" height="60" as="geometry"/>
+      </mxCell>
+
+      <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="10a" target="11a">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- 第12行：展示报告 -->
+      <mxCell id="12a" value="展示评估报告&#xa;用户查看" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" x="760" y="460">
+        <mxGeometry x="760" y="460" width="120" height="60" as="geometry"/>
+      </mxCell>
+
+      <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="11a" target="12a">
+        <mxGeometry relative="1" as="geometry"/>
+      </mxCell>
+
+      <!-- 图例 -->
+      <mxCell id="legend" value="图例说明：&#xa;■ 用户操作(蓝色) &#xa;■ 系统处理(绿色) &#xa;■ AI处理(黄色) &#xa;■ 判断节点(紫色)" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=11;" vertex="1" x="50" y="400">
+        <mxGeometry x="50" y="400" width="180" height="80" as="geometry"/>
+      </mxCell>
+
+    </root>
+  </diagram>
+</mxfile>
