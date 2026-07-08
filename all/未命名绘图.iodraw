@@ -16,8 +16,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="650" y="510" />
-              <mxPoint x="600" y="510" />
-              <mxPoint x="600" y="560" />
+              <mxPoint x="655" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -31,7 +30,7 @@
           <mxGeometry x="80" y="670" width="50" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-8" value="管理员端" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="520" width="90" height="80" as="geometry" />
+          <mxGeometry x="600" y="540" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-10" value="笔记管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="670" width="50" height="110" as="geometry" />
