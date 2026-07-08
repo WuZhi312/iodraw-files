@@ -7,8 +7,8 @@
         <mxCell id="0hI29btW3W-JrF-UibrT-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0hI29btW3W-JrF-UibrT-1" target="0hI29btW3W-JrF-UibrT-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="310" y="490" />
-              <mxPoint x="310" y="490" />
+              <mxPoint x="180" y="510" />
+              <mxPoint x="180" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -30,7 +30,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-2" value="用户端" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="560" width="90" height="80" as="geometry" />
+          <mxGeometry x="140" y="540" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="680" width="50" height="110" as="geometry" />
@@ -39,7 +39,7 @@
           <mxGeometry x="560" y="560" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="690" width="50" height="110" as="geometry" />
+          <mxGeometry x="40" y="670" width="50" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="700" width="50" height="110" as="geometry" />
