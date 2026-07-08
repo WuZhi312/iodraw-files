@@ -33,12 +33,12 @@
           <mxGeometry x="550" y="530" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-10" value="笔记管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="670" width="50" height="110" as="geometry" />
+          <mxGeometry x="20" y="670" width="50" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0hI29btW3W-JrF-UibrT-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0hI29btW3W-JrF-UibrT-11" value="学习计划" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="670" width="50" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0hI29btW3W-JrF-UibrT-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0hI29btW3W-JrF-UibrT-12" value="语音记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="670" width="50" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-13" value="数据大屏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
