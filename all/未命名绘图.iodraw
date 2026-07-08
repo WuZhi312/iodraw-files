@@ -16,7 +16,7 @@
           <mxGeometry x="110" y="420" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-2" value="用户端" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="540" width="90" height="80" as="geometry" />
+          <mxGeometry x="200" y="540" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-6" value="文档解析" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="1">
           <mxGeometry x="80" y="670" width="50" height="110" as="geometry" />
@@ -36,14 +36,8 @@
         <mxCell id="0hI29btW3W-JrF-UibrT-13" value="数据大屏" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="1">
           <mxGeometry x="750" y="670" width="50" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0hI29btW3W-JrF-UibrT-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="870" width="50" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-15" value="RAG&lt;div&gt;问&lt;/div&gt;&lt;div&gt;答&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="670" width="50" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="0hI29btW3W-JrF-UibrT-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="910" width="50" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-17" value="个人中心" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" vertex="1" parent="1">
           <mxGeometry x="440" y="670" width="50" height="110" as="geometry" />
