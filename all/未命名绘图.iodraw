@@ -7,8 +7,8 @@
         <mxCell id="0hI29btW3W-JrF-UibrT-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0hI29btW3W-JrF-UibrT-1" target="0hI29btW3W-JrF-UibrT-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="510" />
-              <mxPoint x="180" y="510" />
+              <mxPoint x="240" y="520" />
+              <mxPoint x="240" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
