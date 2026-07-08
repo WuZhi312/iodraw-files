@@ -27,7 +27,7 @@
           <mxGeometry x="140" y="540" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-6" value="文档解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="670" width="50" height="110" as="geometry" />
+          <mxGeometry x="80" y="670" width="50" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-8" value="管理员端" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="530" width="90" height="80" as="geometry" />
@@ -39,7 +39,7 @@
           <mxGeometry x="400" y="670" width="50" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-12" value="语音记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="670" width="50" height="110" as="geometry" />
+          <mxGeometry x="310" y="670" width="50" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-13" value="数据大屏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="670" width="50" height="110" as="geometry" />
@@ -48,7 +48,7 @@
           <mxGeometry x="30" y="870" width="50" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-15" value="RAG问答" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="670" width="50" height="110" as="geometry" />
+          <mxGeometry x="260" y="670" width="50" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="910" width="50" height="110" as="geometry" />
@@ -57,10 +57,10 @@
           <mxGeometry x="240" y="910" width="50" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-18" value="知识图谱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="670" width="50" height="110" as="geometry" />
+          <mxGeometry x="140" y="670" width="50" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-19" value="AI助手" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="670" width="50" height="110" as="geometry" />
+          <mxGeometry x="200" y="670" width="50" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0hI29btW3W-JrF-UibrT-20" value="用户管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="670" width="50" height="110" as="geometry" />
